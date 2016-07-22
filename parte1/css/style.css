@@ -1,0 +1,32 @@
+.body{
+      width: 900px;
+      height: 300px;
+}
+
+#contenedor{
+	    width: 900px;
+        height: 300px;
+        border: 1px solid black;
+
+}
+.yellow{
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	background: yellow;
+
+}
+	
+
+.blue{
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	background: blue;
+}
+.red{
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	background: red;
+}

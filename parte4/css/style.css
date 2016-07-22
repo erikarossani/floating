@@ -1,0 +1,40 @@
+.body{
+      width: 900px;
+}
+
+#contenedor{
+	    width: 400px;
+        border: 1px solid black;
+}
+
+.clearfix{
+	*zoom:1;
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	 clear: both;
+}
+.yellow{
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	background: yellow;
+	float: left;
+}	
+.blue{
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	background: blue;
+	float: left;
+}
+.red{
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	background: red;
+	float: left;
+}
