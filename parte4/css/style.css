@@ -1,40 +1,31 @@
-.body{
-      width: 900px;
+.caja {
+	width: 600px;
+	border: 1px solid #CCC;
 }
 
-#contenedor{
-	    width: 400px;
-        border: 1px solid black;
+.bloque {
+	width: 25%;
+	height: 100px;
+	float: left;
 }
 
-.clearfix{
-	*zoom:1;
+.amarillo {
+	background-color: #FFFF00;
 }
-.clearfix:before, .clearfix:after{
-	content: "";
-	display: table;
+
+.azul {
+	background-color: #3A81BA;
 }
-.clearfix:after{
-	 clear: both;
+
+.rojo {
+	background-color: #ED2251;
 }
-.yellow{
-	width: 100px;
-	height: 100px;
-	font-size: 30px;
-	background: yellow;
-	float: left;
-}	
-.blue{
-	width: 100px;
-	height: 100px;
-	font-size: 30px;
-	background: blue;
-	float: left;
+
+.clearfix:before, .clearfix:after {
+   content: " ";
+   display: table;
 }
-.red{
-	width: 100px;
-	height: 100px;
-	font-size: 30px;
-	background: red;
-	float: left;
+
+.clearfix:after {
+   clear: both;
 }

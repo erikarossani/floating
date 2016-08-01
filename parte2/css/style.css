@@ -1,34 +1,22 @@
-.body{
-      width: 900px;
-      height: 300px;
+.caja {
+	width: 600px;
+	border: 1px solid #CCC;
 }
 
-#contenedor{
-	    width: 900px;
-        border: 1px solid black;
-
-}
-.yellow{
-	width: 100px;
+.bloque {
+	width: 25%;
 	height: 100px;
-	font-size: 30px;
-	background: yellow;
-	float: left;
-
-}
-	
-
-.blue{
-	width: 100px;
-	height: 100px;
-	font-size: 30px;
-	background: blue;
 	float: left;
 }
-.red{
-	width: 100px;
-	height: 100px;
-	font-size: 30px;
-	background: red;
-	float: left;
+
+.yellow {
+	background-color: #FFFF00;
+}
+
+.blue {
+	background-color: #3A81BA;
+}
+
+.red {
+	background-color: #ED2251;
 }
